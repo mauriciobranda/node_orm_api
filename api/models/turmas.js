@@ -24,8 +24,8 @@ module.exports = (sequelize, DataTypes) => {
   };
   Turmas.init({
     data_inicio: DataTypes.DATEONLY,
-    nivel: DataTypes.INTEGER,
-    docente: DataTypes.INTEGER
+    //nivel: DataTypes.INTEGER,
+    //docente: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Turmas',
